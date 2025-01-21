@@ -22,9 +22,9 @@ Topics covered:
 ## References
 
 ### Official Code Repo on Github:
-⦿ Profile: cfe.sh/github or github.com/codingforentrepreneurs
+⦿ Profile:  github.com/William9701
 
-⦿ Project: https://github.com/codingforentrepreneurs/ai-travel-agent
+⦿ Project: https://github.com/William9701/AI_travel_agent
 
 
 ### Services used
@@ -116,7 +116,7 @@ echo "MARIADB_ROOT_PASSWORD=$(python3 -c 'import secrets;print(secrets.token_url
 
 Copy the contents of [config/compose.yaml](./config/compose.yaml) file to your EC2 instance to run MariaDB with:
 ```bash
-curl https://raw.githubusercontent.com/codingforentrepreneurs/ai-travel-agent/main/config/compose.yaml -o compose.yaml
+curl https://raw.githubusercontent.com/William9701/AI_travel_agent/main/config/compose.yaml -o compose.yaml
 docker compose -f compose.yaml up -d
 ```
 
