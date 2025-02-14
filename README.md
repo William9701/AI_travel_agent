@@ -124,4 +124,4 @@ docker compose -f compose.yaml up -d
 Make note of the EC2 instance public IP address so you can re-use it anywhere with the following database connection string:
 ```bash
 mariadb://root:your-secret-password@<your-ec2-instance-public-ip>:3306
-```.
+```!
